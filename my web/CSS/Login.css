@@ -1,0 +1,48 @@
+ventSender: The following message is prepared to be sent to dradis:
+Event Name: rso_token_request
+grant_type: refresh_token
+succeeded: true
+003556.592|   OKAY| SDK: rso-auth: RSO password grant do refresh successful.
+003556.597|   OKAY| SDK: rso-auth: Refreshing tokens in 3562.49 seconds...
+003556.627|   OKAY| SDK: chat: RSO access token received, size: 1193
+003556.650|   OKAY| SDK: riot-messaging-service: Access token has changed.
+003556.651|   OKAY| SDK: entitlements: EntitlementsPlugin received an updated authorization.
+003556.652|   OKAY| SDK: chat: RSO ID token received, size: 933
+003556.656|   OKAY| SDK: mailbox: Stored RSO access token for signed-in player
+003556.660|   WARN| SDK: chat: Validator failed for FETCH_PLAYER_AFFINITY_TOKEN_COMMAND: affinity not enabled for chat (yet) from client-config
+003556.661|  ERROR| SDK: riot-client-auth: RSO id-token didn't contain a country login country is 'nan'
+003556.661|   OKAY| SDK: riot-client-auth: Updated authorization using rso-auth.
+003556.972|   OKAY| SDK: riot-messaging-service: Entitlements token has changed.
+003556.973|   OKAY| SDK: telemetry: Dropping disabled AP event schemaless__ExternalWebRequest__v1
+003556.974|   OKAY| SDK: entitlements: Successfully updated entitlements token after 1 attempt(s). Fetch took 322ms.
+003556.978|   WARN| SDK: info-radiator: Unable to send time sample for login_flow_entitlements_ready as the previous timing phase did not complete
+003556.981|   OKAY| SDK: chat: entitlements token received, size: 637
+004042.647|   OKAY| SDK: chat: notifying REST of presence UPDATE for 1bc775e1-0381-5021-860a-1ebe9b481910@pvp.net/RC-746033738/league_of_legends
+004042.804|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004056.519|   OKAY| SDK: chat: notifying REST of presence UPDATE for 1bc775e1-0381-5021-860a-1ebe9b481910@pvp.net/RC-746033738/league_of_legends
+004056.534|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004058.897|   OKAY| SDK: chat: notifying REST of presence UPDATE for 1bc775e1-0381-5021-860a-1ebe9b481910@pvp.net/RC-746033738/league_of_legends
+004059.004|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004081.261|   OKAY| SDK: chat: notifying REST of presence UPDATE for 1bc775e1-0381-5021-860a-1ebe9b481910@pvp.net/RC-746033738/league_of_legends
+004081.311|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004091.476|   OKAY| SDK: chat: notifying REST of presence UPDATE for f7062619-8f18-53f3-ae37-dcc27bac13de@pvp.net/RC-438532025/league_of_legends
+004091.509|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004113.862|   OKAY| SDK: chat: notifying REST of presence UPDATE for f7062619-8f18-53f3-ae37-dcc27bac13de@pvp.net/RC-438532025/league_of_legends
+004114.142|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004117.002|   OKAY| SDK: chat: notifying REST of presence UPDATE for f7062619-8f18-53f3-ae37-dcc27bac13de@pvp.net/RC-438532025/league_of_legends
+004117.155|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004125.778|   OKAY| SDK: chat: notifying REST of presence UPDATE for f7062619-8f18-53f3-ae37-dcc27bac13de@pvp.net/RC-438532025/league_of_legends
+004125.821|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004152.099|   OKAY| SDK: chat: notifying REST of presence UPDATE for 1bc775e1-0381-5021-860a-1ebe9b481910@pvp.net/RC-746033738/league_of_legends
+004152.175|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004250.202|   OKAY| SDK: chat: notifying REST of presence UPDATE for f7062619-8f18-53f3-ae37-dcc27bac13de@pvp.net/RC-438532025/league_of_legends
+004250.259|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004769.598|   OKAY| SDK: riot-messaging-service: Got message '{"type":"push","ts":1632981814,"subject":"rms:message","payload":{"resource":"missions/v1/player","service":"missions","timestamp":1632981814303,"payload":"{\"requestId\":\"MTU3MDI5MTYzMg--320760311\"}","version":"1.0.0"}}'
+004769.599|   OKAY| SDK: riot-messaging-service: Notifying on /riot-messaging-service/v1/message/missions/v1/player
+004769.622|   OKAY| SDK: riot-messaging-service: Got message '{"type":"push","ts":1632981814,"subject":"rms:message","payload":{"resource":"cap/v1/wallets","service":"cap.wallets","timestamp":1632981814313,"payload":"{\"lol_wrl21_premium_token\":{\"amount\":2,\"subCurrencies\":{\"GRANTED\":2}}}","version":"0.0.1"}}'
+004769.656|   OKAY| SDK: riot-messaging-service: Notifying on /riot-messaging-service/v1/message/cap/v1/wallets
+004771.285|   OKAY| SDK: chat: notifying REST of presence UPDATE for 2e052554-89a0-51c0-a47b-5ab0641cd8f8@pvp.net/RC-1991521884/league_of_legends
+004771.459|   WARN| SDK: product-localization: content path not found for product league_of_legends, patchline 
+004776.408|   OKAY| SDK: riot-messaging-service: Got message '{"type":"push","ts":1632981821,"subject":"rms:message","payload":{"resource":"leagues/v1","service":"leagues","timestamp":1632981821089,"payload":"{}","version":"1"}}'
+004776.409|   OKAY| SDK: riot-messaging-service: Notifying on /riot-messaging-service/v1/message/leagues/v1
+004780.489|   OKAY| SDK: riot-messaging-service: Got message '{"type":"push","ts":1632981824,"sub

@@ -1,0 +1,26 @@
+.gamesbtn{
+	background-color: green;
+}
+@media(max-width:992px){
+		.cast h1{
+		 font-size: 250%;
+	}
+}
+@media(max-width:768px){
+	.cast h1{
+		font-size: 220%;
+	}
+	.cast .gamesbtn{
+		font-size: 95%;
+        padding:8px 14px;
+	}
+}
+@media(max-width:576px){
+	.cast h1{
+		 font-size: 150%;
+	}
+		.cast .gamesbtn{
+        font-size: 90%;
+        padding:4px 8px;
+	}
+}
